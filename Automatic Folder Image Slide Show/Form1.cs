@@ -56,6 +56,13 @@ namespace Automatic_Folder_Image_Slide_Show
                 btnPlay.Enabled = true;
 
             }
+            else
+            {
+                // added this line below inside of an else state
+                // to show a visual message that no folders were loaded
+                // if the dialog box was closed or cancelled
+                lblFileInfo.Text = "No folders loaded!";
+            }
 
 
 
